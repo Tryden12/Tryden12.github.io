@@ -1155,6 +1155,20 @@ RESUME
 .resume-content p {
     padding: 0;
 }
+
+.company-logo {
+    width: 70%;float: left;margin-top: 12px; margin-right: 10px; 
+}
+
+.experience-left {
+    flex: 2%;
+}
+
+.experience-right {
+    flex: 90%;
+}
+
+
 /*
 SKILL
 */
