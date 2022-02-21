@@ -1669,3 +1669,25 @@ PORTFOLIO
     opacity: 1;
     z-index: 1;
 }
+
+.portfolio-icon-links {
+    list-style-type: none;
+}
+
+.portfolio-github-link {
+    width: 50%;
+    margin-left: 190px;
+}
+
+.btn-social2 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 1);
+    color: #1abc9c!important;
+}
