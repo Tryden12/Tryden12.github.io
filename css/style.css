@@ -1,9 +1,18 @@
-/*------------------------------------------------------------------
-[Component Style Stylesheet]
-Version:    1.3
-Last change:    13/12/2014 [fixed Float bug, vf]
-Author: themesmile
--------------------------------------------------------------------*/
+/****************************************
+Color Pallete:
+blue        = #3d5a80;
+light blue  = #98c1d9;
+pale blue   = #e0fbfc;
+orange      = #ee6c4d;
+dark blue   = #293241;
+
+
+
+
+
+
+
+*****************************************/
 
 body {
     overflow-x: hidden;
@@ -72,7 +81,7 @@ hr.star-light {
 }
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #3d5a80;
 }
 hr.star-primary {
     border-color: #2c3e50;
@@ -95,13 +104,13 @@ hr.star-primary:after {
     color: #2E3639!important;
 }
 .color-yellow {
-    color: #1abc9c!important;
+    color: #3d5a80!important;
 }
 .no-border {
     border-radius: 0!important;
 }
 .border-yellow {
-    border-color: #1abc9c!important;
+    border-color: #3d5a80!important;
 }
 .border-white {
     border-color: #FFF!important;
@@ -109,10 +118,10 @@ hr.star-primary:after {
 .border-grey {
     border-color: #2E3639!important;
 }
-.bg-black {
-    background: #2e3639!important;
+.bg-blue {
+    background: #3d5a80!important;
     color: #ffffff!important;
-    border-color: #2e3639!important;
+    border-color: #3d5a80!important;
 }
 .bg-grey {
     background: #eee!important;
@@ -124,9 +133,9 @@ hr.star-primary:after {
     border-color: #e74c3c!important;
 }
 .bg-orange {
-    background: #ECA928!important;
+    background: #ee6c4d!important;
     color: #ffffff!important;
-    border-color: #ECA928!important;
+    border-color: #ee6c4d!important;
 }
 .bg-green {
     background: #1abc9c!important;
@@ -138,11 +147,7 @@ hr.star-primary:after {
     color: #ffffff!important;
     border-color: #2c3e50!important;
 }
-.bg-blue {
-    background: #1abc9c!important;
-    color: #ffffff!important;
-    border-color: #1abc9c!important;
-}
+
 .bg-purple {
     background: #8e44ad!important;
     color: #ffffff!important;
@@ -189,7 +194,7 @@ hr.star-primary:after {
 .page-scroll i {
     margin: 0 8px 0 0;
     display: inline-block;
-    color: #747474!important;
+    color: white!important;
     font-size: 16px;
     position: relative;
     top: 2px;
@@ -394,19 +399,18 @@ section .ray-bottom {
     /* padding: 0; */
 }
 .resume-content h3 span {
-    background: #222222;
+    background: #ee6c4d;
     color: #fff;
     padding: 2px 8px;
     text-align: center;
 }
 .intro-text {
-    /* width: 200px; */
-
+    width: 600px; 
     height: auto;
     text-align: center;
-    margin: 0 auto;
     position: relative;
-    top: 35vh;
+    top: 55vh;
+    left: 20vh;
 }
 .intro-text h4 {
     font-weight: bold;
@@ -420,19 +424,17 @@ section .ray-bottom {
     padding: 10px 21px;
     /* border: 4px solid #fff; */
 
-    background: #1abc9c;
+    background: #3d5a80;
     color: #fff;
 }
 .intro-text h4 span {
-    /* background: rgba(0,0,0,0.9); */
-
     padding: 10px 20px;
     text-transform: uppercase;
     font-weight: 100;
     margin: 20px 0;
 }
 span.page-scroll {
-    background: rgba(0, 0, 0, 0.9);
+    background: #ee6c4d;
     padding: 6px 10px 8px 10px;
     text-transform: uppercase;
     font-size: 12px;
@@ -536,7 +538,7 @@ span.page-scrol a, span.page-scrol a:hover {
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: #ffffff;
-    background: #2E3639;
+    background: #ee6c4d;
 }
 .floating-label-form-group {
     position: relative;
@@ -596,7 +598,7 @@ form .row:first-child .floating-label-form-group {
     font-size: 15px;
     line-height: 40px;
     background: rgba(255, 255, 255, 1);
-    color: #1abc9c!important;
+    color: #3d5a80!important;
 }
 .btn:focus, .btn:active, .btn.active {
     outline: 0;
@@ -759,7 +761,7 @@ form .row:first-child .floating-label-form-group {
     padding: 5px 20px;
     position: relative;
     margin-top: -68px;
-    border: 4px solid #1abc9c;
+    border: 4px solid #3d5a80;
 }
 .title-overview h2:before {
     width: 125px;
@@ -1026,7 +1028,7 @@ ABOUT ME
     color: #ffffff;
 }
 .e-campuz {
-    background: #1abc9c;
+    background: #3d5a80;
     color: #ffffff!important;
     z-index: 0;
     overflow: hidden;
@@ -1098,7 +1100,7 @@ ABOUT ME
     height: 0;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-top: 50px solid #1abc9c;
+    border-top: 50px solid #3d5a80;
     position: absolute;
     top: 0;
     left: 10%;
@@ -1417,7 +1419,7 @@ PORTFOLIO
     .arrow-down {
         border-left: 23px solid transparent;
         border-right: 23px solid transparent;
-        border-top: 30px solid #1abc9c;
+        border-top: 30px solid #3d5a80;
     }
     .about-nest h2 {
         font-weight: 100;
@@ -1439,7 +1441,7 @@ PORTFOLIO
     }
     .intro-text h1 span {
         padding: 10px 21px;
-        background: #1abc9c;
+        background: #3d5a80;
         color: #fff;
         font-size: 25px;
         display: block;
@@ -1696,7 +1698,7 @@ ul.portfolio-icon-links {
     font-size: 25px;
     line-height: 40px;
     background: rgba(255, 255, 255, 1);
-    color: #1abc9c!important;
+    color: #3d5a80!important;
 }
 
 a.btn-social2.btn-outline {
