@@ -1670,14 +1670,24 @@ PORTFOLIO
     z-index: 1;
 }
 
-.portfolio-icon-links {
+
+/******* Portfolio *******/
+
+
+.video-wrapper {
+	width: 55%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+ul.portfolio-icon-links {
+    margin-left: -40px;
     list-style-type: none;
 }
 
-.portfolio-github-link {
-    width: 50%;
-    margin-left: 190px;
-}
+
+
 
 .btn-social2 {
     height: 40px;
@@ -1690,6 +1700,7 @@ PORTFOLIO
 }
 
 a.btn-social2.btn-outline {
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
+
