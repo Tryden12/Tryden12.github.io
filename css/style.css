@@ -1680,14 +1680,16 @@ PORTFOLIO
 }
 
 .btn-social2 {
-    display: inline-block;
-    width: 40px;
     height: 40px;
     border: 0px solid #fff;
-    border-radius: 100%;
     text-align: center;
     font-size: 25px;
     line-height: 40px;
     background: rgba(255, 255, 255, 1);
     color: #1abc9c!important;
+}
+
+a.btn-social2.btn-outline {
+    padding: 15px;
+    border-radius: 15px;
 }
