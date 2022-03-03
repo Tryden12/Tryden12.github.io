@@ -97,13 +97,13 @@ hr.star-primary:after {
 .color-grey {
     color: #2E3639!important;
 }
-.color-yellow {
+.color-blue {
     color: #3d5a80!important;
 }
 .no-border {
     border-radius: 0!important;
 }
-.border-yellow {
+.border-blue {
     border-color: #3d5a80!important;
 }
 .border-white {
@@ -1355,6 +1355,12 @@ PORTFOLIO
     display: block;
     font-size: 13px;
 }
+
+.responsive-youtube{
+    width:560px;
+    height: 315px;
+    }
+
 /* #Tablet (Portrait) */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -1390,6 +1396,15 @@ PORTFOLIO
     .navbar-default .navbar-brand {
         display: none;
     }
+
+    input.form-control.form-footer.subject {
+        margin-top: 30px;
+    }
+
+    .responsive-youtube{
+        width:100%;
+        height: 298px;
+        }
 
     .intro-text h4 span {
         padding: 0 !important;
