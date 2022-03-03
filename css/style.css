@@ -25,7 +25,6 @@ body {
     -webkit-transition: all 0.2s ease-out 0s;
     -moz-transition: all 0.2s ease-out 0s;
     -ms-transition: all 0.2s ease-out 0s;
-    #-o-transition: all 0.2s ease-out 0s;
     transition: all 0.2s ease-out 0s;
 }
 a {
@@ -179,7 +178,7 @@ hr.star-primary:after {
     text-transform: capitalize!important;
     color: #222!important;
     position: relative;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Raleway', sans-serif;
     right: -25px;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
