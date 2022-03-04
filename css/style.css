@@ -404,7 +404,7 @@ section .ray-bottom {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    top: 10vh;
+    top: 55vh;
     right: 2vh;
 }
 .intro-text h4 {
@@ -1728,4 +1728,6 @@ a.btn-social2.btn-outline {
     padding: 5px;
     border-radius: 15px;
 }
+
+
 
