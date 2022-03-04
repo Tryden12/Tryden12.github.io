@@ -1472,7 +1472,6 @@ PORTFOLIO
         color: #fff;
         font-size: 25px;
         display: block;
-        line-height: 40px;
     }
     .pull-right {
         float: none!important;
@@ -1559,7 +1558,7 @@ PORTFOLIO
         margin-top: 20px;
     }
     .intro-text {
-        width: 200px;
+        width: 300px;
         height: auto;
         text-align: center;
         margin: 0 auto;
