@@ -1773,6 +1773,10 @@ a.btn-social2.btn-outline {
   /*Menu Breakpoint*/
 
 @media (max-width: 1200px) {
+    #header {
+        background: none !important;
+        background-color:#3d5a80 !important;
+    }
     .navbar-header {
         float: none;
     }
