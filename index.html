@@ -73,7 +73,7 @@
     <!-- End of Navigation -->
 
     <!-- Header -->
-    <header id="header" style="background:url('img/bg5_dark_without_switch.jpg')">
+    <header id="header" style="background:url('img/bg5_noWhiteBlock.png')">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
@@ -534,41 +534,23 @@
 
             let header = document.getElementById('header');
 
-            if (header.style.background = "url('img/bg5_dark_without_switch.jpg") {
-                header.style.background = "url('img/bg5_noWhiteBlock.png')"
+            if (header.style.background = "url('img/bg5_noWhiteBlock.png") {
+                header.style.background = "url('img/bg5_dark_without_switch.jpg')"
             } else {
-                (header.style.background = "url('img/bg5_dark_without_switch.jpg")
+                (header.style.background = "url('img/bg5_noWhiteBlock.png")
             }
 
             if(switchCounter % 2 == 0) {
-                header.style.background = "url('img/bg5_dark_without_switch.jpg";
+                header.style.background = "url('img/bg5_noWhiteBlock.png";
             }
             else {
-                header.style.background = "url('img/bg5_noWhiteBlock.png')";
+                header.style.background = "url('img/bg5_dark_without_switch.jpg')";
             }
                 
             
             
             
-        }) 
-
-
-
-
-
-        /*
-        const header = document.querySelector('header');
-        function onClick(this) {
-        console.log('click');
-        if (this.classList.contains('active')) {
-            header.style.background = "url('img/bg5_dark_without_switch.jpg')" 
-            this.classList.remove('active');
-        } else {
-            this.classList.add('active');
-            header.style.background = "url('img/bg5_noWhiteBlock.png')" 
-        }  
-        };
-        */         
+        })          
 
 
         // Run the show!
