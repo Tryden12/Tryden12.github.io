@@ -1125,6 +1125,14 @@ ABOUT ME
 RESUME
 */
 
+.col-md-4 {
+    width: 25% !important;
+  }
+
+.left-margin {
+    margin-left: 25px;
+}
+
 .resume-content h5 {
     margin: 30px 0;
     font-weight: 700;
